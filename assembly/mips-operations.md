@@ -63,7 +63,7 @@ Example 2: <br/>
 | Shift Left  | <<        | <<       | sll       | 
 | Shift Right | >>        | >>>      | srl       |
 | AND         | &         | &        | and, andi | 
-| OR          | ```|```   | ```|```  | or, ori   |
+| OR          | \|        | \|       | or, ori   |
 | NOT         | ~         | ~        | not       | 
 
 * Shift Operations
