@@ -44,7 +44,7 @@ Instruction Fields:
 * constant or address to jump to if true
 
 PC = Program Counter<br/>
-PC-Relative Addressing
+PC-Relative Addressing:
 * Target address = PC + offset x 4
 * PC has already incremented by 4 by this time
 	* Remember the PC already did PC += 4
