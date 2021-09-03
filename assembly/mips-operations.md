@@ -58,13 +58,13 @@ Example 2: <br/>
 	* addi $s2, $s1, -1
 
 ## Logical Operations
-| Operation   | C     | Java  | MIPS      | 
-| :---:       | :---: | :---: | :---:     |
-| Shift Left  | <<    | <<    | sll       | 
-| Shift Right | >>    | >>>   | srl       |
-| AND         | &     | &     | and, andi | 
-| OR          | `|`   | `|`   | or, ori   |
-| NOT         | ~     | ~     | not       | 
+| Operation   | C         | Java     | MIPS      | 
+| :---:       | :---:     | :---:    | :---:     |
+| Shift Left  | <<        | <<       | sll       | 
+| Shift Right | >>        | >>>      | srl       |
+| AND         | &         | &        | and, andi | 
+| OR          | ```|```   | ```|```  | or, ori   |
+| NOT         | ~         | ~        | not       | 
 
 * Shift Operations
 	* shamt: how many positions to shift
