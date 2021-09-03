@@ -1,6 +1,6 @@
-##MIPS Cheat Sheet
+## MIPS Cheat Sheet
 
-####R-Type (Registers)
+#### R-Type (Registers)
 **Math**
 add $1, $2, $3\t $1 = $2 + $3
 sub $1, $2, $3\t $1 = $2 - $3
@@ -17,7 +17,7 @@ nor $1, $2, $3\t $1 = $2 NOR $3
 sll $1, $2, shamt\t $1 = $2 << shamt (shift left logical)
 srl $1, $2, shamt\t $1 = $2 >> shamt (shift right logical)
 
-####I-Type (Immediate)
+#### I-Type (Immediate)
 **Branching**
 beq $1, $2, imm\t if ($1 = $2) branch to imm
 bne $1, $2, imm\t if ($1 != $2) branch to imm
@@ -32,6 +32,6 @@ andi $1, $2, imm\t $1 = $2 AND imm
 ori $1, $2, imm\t $1 = $2 OR imm
 xori $1, $2, imm\t $1 = $2 XOR imm
 
-####J-Type (Jump)
+#### J-Type (Jump)
 j address\t (jump to address)
 jal address\t (jump to address but save my current location)
